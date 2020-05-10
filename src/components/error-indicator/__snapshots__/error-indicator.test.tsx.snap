@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="jumbotron text-center bg-white"
+  >
+    <h1
+      class="error-title"
+    >
+      Sorry! Something goes wrong :(
+    </h1>
+    <h2>
+      Please try to reload this page later
+    </h2>
+  </div>
+</DocumentFragment>
+`;

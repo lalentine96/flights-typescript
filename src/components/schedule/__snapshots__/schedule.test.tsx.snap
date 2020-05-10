@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <table
+    class="table table-striped"
+  >
+    <thead
+      class="thead-light"
+    >
+      <tr>
+        <th>
+          Scheduled time
+        </th>
+        <th>
+          Actual time
+        </th>
+        <th>
+          City
+        </th>
+        <th>
+          Airline
+        </th>
+        <th>
+          Flight number
+        </th>
+        <th>
+          Terminal
+        </th>
+        <th>
+          Status
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          19:09
+        </td>
+        <td>
+          18:56
+        </td>
+        <td>
+          Düsseldorf
+        </td>
+        <td>
+          Emirates Airlines
+        </td>
+        <td>
+          AV 3146
+        </td>
+        <td>
+          A
+        </td>
+        <td>
+          Arrived
+        </td>
+      </tr>
+      <tr>
+        <td>
+          19:20
+        </td>
+        <td>
+          19:01
+        </td>
+        <td>
+          Paris
+        </td>
+        <td>
+          UTAIR
+        </td>
+        <td>
+          N4 8795
+        </td>
+        <td>
+          C
+        </td>
+        <td>
+          Delayed
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

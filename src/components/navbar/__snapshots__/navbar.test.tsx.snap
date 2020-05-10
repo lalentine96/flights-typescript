@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar navbar-expand-sm bg-info navbar-dark"
+  >
+    <ul
+      class="navbar-nav mr-auto"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="/arrivals"
+        >
+          Arrivals
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="/departures"
+        >
+          Departures
+        </a>
+      </li>
+    </ul>
+    <form
+      class="form-inline"
+    >
+      <label
+        class="form-check-label text-white mr-3"
+      >
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+        Show delayed only
+      </label>
+      <input
+        class="form-control nav-input"
+        placeholder="Search by flight number"
+        type="text"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
