@@ -4,16 +4,17 @@
 }
 
 .ldio-m1vz8cogcp div {
-    left: 235px;
-    top: 120px;
     position: absolute;
     animation: ldio-m1vz8cogcp linear 1s infinite;
     background: #17a2b8;
+    left: 235px;
+    top: 120px;
     width: 30px;
     height: 60px;
     border-radius: 15px / 30px;
     transform-origin: 15px 130px;
 }
+
 
 .ldio-m1vz8cogcp div:nth-child(1) {
     transform: rotate(0deg);
@@ -90,9 +91,10 @@
 .loadingio-spinner-spinner-dwihlg4b99k {
     width: 500px;
     height: 500px;
-    display: inline-block;
     overflow: hidden;
     background: none;
+    margin: 0 auto;
+
 }
 
 .ldio-m1vz8cogcp {
@@ -105,3 +107,19 @@
 }
 
 .ldio-m1vz8cogcp div { box-sizing: content-box; }
+
+@media only screen and (max-width: 37.5em) {
+    .loadingio-spinner-spinner-dwihlg4b99k {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .ldio-m1vz8cogcp div {
+        left: 117.5px;
+        top: 60px;
+        width: 15px;
+        height: 30px;
+        border-radius: 7.5px / 15px;
+        transform-origin: 7.5px 65px;
+    }
+}

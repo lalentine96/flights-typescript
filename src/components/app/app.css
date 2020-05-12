@@ -20,6 +20,12 @@
     }
 }
 
+@media screen and (min-width:0\0) and (max-width: 37.5em) {
+    .navbar .nav-input {
+        margin-left: 2px;
+    }
+}
+
 .app-header {
     margin-bottom: 0;
     border-radius: 0;

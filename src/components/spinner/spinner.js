@@ -4,18 +4,17 @@ import './spinner.css';
 
 const Spinner = () => {
     return (
-        <div className="container text-center">
-            <div className="loadingio-spinner-spinner-dwihlg4b99k">
-                <div className="ldio-m1vz8cogcp">
-                    <div></div><div></div>
-                    <div></div><div></div>
-                    <div></div><div></div>
-                    <div></div><div></div>
-                    <div></div><div></div>
-                    <div></div><div></div>
-                </div>
+        <div className="loadingio-spinner-spinner-dwihlg4b99k">
+            <div className="ldio-m1vz8cogcp">
+                <div></div><div></div>
+                <div></div><div></div>
+                <div></div><div></div>
+                <div></div><div></div>
+                <div></div><div></div>
+                <div></div><div></div>
             </div>
         </div>
+        
     );
 };
 
