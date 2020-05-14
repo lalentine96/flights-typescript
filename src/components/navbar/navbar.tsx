@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearchChange, onToggleCheckbox }) => 
                         className="form-check-input"
                         onChange={onToggleCheckbox} />
                     <label
-                        className="form-check-label text-white mr-3">
+                        className="form-check-label text-white mr-3 nav-label">
                         Show delayed only
                     </label>
                 </div>
